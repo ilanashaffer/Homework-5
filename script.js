@@ -1,4 +1,3 @@
-
 // dom variables
 
 const currentDate = document.querySelector('#currentDay');
@@ -20,15 +19,6 @@ const saveButton5 = document.querySelector('#save5');
 const saveButton6 = document.querySelector('#save6');
 const saveButton7 = document.querySelector('#save7');
 const saveButton8 = document.querySelector('#save8');
-const nine = document.getElementById('#nine');
-const ten = document.getElementById('#ten');
-const eleven = document.getElementById('#eleven');
-const twelve = document.getElementById('#twelve');
-const one = document.getElementById('#one');
-const two = document.getElementById('#two');
-const three = document.getElementById('#three');
-const four = document.getElementById('#four');
-const five = document.getElementById('#five');
 
 // adding current date to header
 
@@ -41,98 +31,101 @@ $(currentDate).html(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
 }
 setInterval(liveDate, 1000);
 
-// function to color code boxes according to time (WIP)
+// function to color code boxes according to time
 
-if ((moment().format("hh")) > nine) {
+if ((moment().format("HH")) > 9) {
     $(inputElement).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < nine) {
+} else if ((moment().format("HH")) < 9) {
     $(inputElement).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === nine) {
+} else if ((moment().format("HH")) == 9) {
     $(inputElement).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
-if ((moment().format("hh")) > ten) {
+if ((moment().format("HH")) > 10) {
     $(inputElement1).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < ten) {
+} else if ((moment().format("HH")) < 10) {
     $(inputElement1).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === ten) {
+} else if ((moment().format("HH")) == 10) {
     $(inputElement1).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
-if ((moment().format("hh")) > eleven) {
+if ((moment().format("HH")) > 11) {
     $(inputElement2).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < eleven) {
+} else if ((moment().format("HH")) < 11) {
     $(inputElement2).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === eleven) {
+} else if ((moment().format("HH")) == 11) {
     $(inputElement2).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
-if ((moment().format("hh")) > twelve) {
+if ((moment().format("HH")) > 12) {
     $(inputElement3).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < twelve) {
+} else if ((moment().format("HH")) < 12) {
     $(inputElement3).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === twelve) {
+} else if ((moment().format("HH")) == 12) {
     $(inputElement3).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
-if ((moment().format("hh")) > one) {
+if ((moment().format("HH")) > 13) {
     $(inputElement4).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < one) {
+} else if ((moment().format("HH")) < 13) {
     $(inputElement4).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === one) {
+} else if ((moment().format("HH")) == 13) {
     $(inputElement4).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
-if ((moment().format("hh")) > two) {
+if ((moment().format("HH")) > 14) {
     $(inputElement5).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < two) {
+} else if ((moment().format("HH")) < 14) {
     $(inputElement5).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === two) {
+} else if ((moment().format("HH")) == 14) {
     $(inputElement5).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
-if ((moment().format("hh")) > three) {
+if ((moment().format("HH")) > 15) {
     $(inputElement6).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < three) {
+} else if ((moment().format("HH")) < 15) {
     $(inputElement6).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === three) {
+} else if ((moment().format("HH")) == 15) {
     $(inputElement6).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
-if ((moment().format("hh")) > four) {
+if ((moment().format("HH")) > 16) {
     $(inputElement7).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < four) {
+} else if ((moment().format("HH")) < 16) {
     $(inputElement7).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === four) {
+} else if ((moment().format("HH")) == 16) {
     $(inputElement7).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
-if ((moment().format("hh")) > five) {
+if ((moment().format("HH")) > 17) {
     $(inputElement8).css("background-color", "lightgrey");
-} else if ((moment().format("hh")) < five) {
+} else if ((moment().format("HH")) < 17) {
     $(inputElement8).css("background-color", "limegreen");
-} else if ((moment().format("hh")) === five) {
+} else if ((moment().format("HH")) == 17) {
     $(inputElement8).css("background-color", "red");
 } else {
-    alert('color code error');
+    alert('Error');
 }
 
+// testing
+
+console.log(typeof (moment().format("HH")));
 
 // render saved event upon loading
 
