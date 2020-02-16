@@ -1,8 +1,8 @@
-Homework 5: Work Day Scheduler 
+Homework 5: Workday Planner  
 
 Description:  
 
-This is a 9-5 Work Day Scheduler that saves input and displays a live clock. This was created using HTML, CSS, Javascript, and Moment.js.  
+This is a 9-5 Workday Planner that saves input and displays a live clock. This was created using HTML, CSS, Javascript, and Moment.js.  
 
 
 Project files:  
