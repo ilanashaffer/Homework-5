@@ -15,10 +15,6 @@ Github Pages URL:
 https://ilanashaffer.github.io/Workday-Planner/
 
 
-Deployment:  
-Download Repository  
-Open index.html in browser
-
 Built with:  
 Visual Studio Code  
 HTML  
