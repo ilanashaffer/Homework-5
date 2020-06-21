@@ -1,4 +1,4 @@
-Homework 5: Workday Planner  
+Workday Planner  
 
 Description:  
 
@@ -12,10 +12,8 @@ Project files:
     script.js  
 
 Github Pages URL:  
-https://ilanashaffer.github.io/Homework-5/
+https://ilanashaffer.github.io/Workday-Planner/
 
-Prerequisites:  
-Browser that supports HTML5
 
 Deployment:  
 Download Repository  
@@ -30,6 +28,3 @@ Moment.js
 
 Authors:  
 Ilana Shaffer
-
-Acknowledgments:  
-University of Denver - Bootcamp Spot Assignment
